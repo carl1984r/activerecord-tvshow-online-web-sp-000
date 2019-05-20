@@ -8,4 +8,10 @@ class Show < ActiveRecord::Base
     Show.order(:rating).last
   end
 
+  def Show::lowest_rating
+
+  end
+
+  
+
 end
